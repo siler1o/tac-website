@@ -81,7 +81,7 @@ document.getElementById('book-form').addEventListener('submit', e => {
     '',
     f.get('message') || '',
   ].join('\n');
-  location.href = 'mailto:theassumptionistchoir.ph@gmail.com'
+  location.href = 'mailto:theassumptionistchoir@gmail.com'
     + '?subject=' + encodeURIComponent(`Booking inquiry: ${f.get('event')}`)
     + '&body=' + encodeURIComponent(body);
 });
